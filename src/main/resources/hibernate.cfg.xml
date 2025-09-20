@@ -6,14 +6,14 @@
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">1q2w3e</property>
 
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgresSQLDialect</property>
 
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="com.exemplu.model.Floare"/>
-        <mapping class="com.exemplu.model.Client"/>
+        <mapping class="com.example.entity.Customer"/>
+        <mapping class="com.example.entity.SimDetails"/>
     </session-factory>
 </hibernate-configuration>
